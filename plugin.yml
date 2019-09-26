@@ -1,0 +1,8 @@
+name: FactionUI
+version: 1.0.0
+main: MulqiGaming\Main
+api: 3.0.0
+author: MulqiGaming64
+commands:
+ team:
+  description: "§b§lFaction UI BY MulqiGaming64"
