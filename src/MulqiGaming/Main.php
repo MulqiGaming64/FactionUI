@@ -48,6 +48,7 @@ class Main extends PluginBase implements Listener {
           switch($result){
               case 0:
               $sender->addTitle("§b§lFactionUI");
+              break;
               case 1:
 			  $this->Create($sender);
               break;
@@ -79,7 +80,7 @@ class Main extends PluginBase implements Listener {
         $config = $this->getConfig();
         $name = $sender->getName();
         $form->setTitle("§b§lFaction UI");
-		$form->addButton("§cBack");
+		$form->addButton("§cExit");
 		$form->addButton("§cBuat Team\n§fBuat Faction");
 		$form->addButton("§6Hapus Team\n§fHapus Faction");
 		$form->addButton("§eKeluar Team\n§fKeluar Faction");
