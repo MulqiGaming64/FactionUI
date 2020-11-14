@@ -84,7 +84,7 @@ class Main extends PluginBase implements Listener {
 		$form->addButton("§6Hapus Team\n§fHapus Faction");
 		$form->addButton("§eKeluar Team\n§fKeluar Faction");
         $form->addButton("§aInvite Temen\n§fInvite Temen");
-		$form->addButton("§bTop Team\n§fTop Factiom");
+		$form->addButton("§bTop Team\n§fTop Faction");
 		$form->addButton("§dTerima\n§fTerima");
 		$form->addButton("§cJangan Terima\n§fTidak Menerima");
         $form->sendToPlayer($sender);
